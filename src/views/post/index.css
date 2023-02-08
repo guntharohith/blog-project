@@ -1,0 +1,37 @@
+.full-post__container {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.full-post__image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+
+  margin-bottom: 24px;
+}
+
+.full-post__title {
+  margin: 24px 0px;
+  color: white;
+}
+
+.full-post__content p {
+  margin-bottom: 16px;
+  line-height: 1.5rem;
+  color: rgb(200, 158, 158);
+}
+
+.full-post__header {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .full-post__container {
+    width: 90%;
+  }
+}
